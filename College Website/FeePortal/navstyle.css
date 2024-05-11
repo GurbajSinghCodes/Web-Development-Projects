@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+ol {
+  padding: 20px;
+}
+nav {
+  height: 50px;
+  background-color: rgb(64, 211, 221);
+  text-transform: uppercase;
+  display: flex;
+  background-color: rgb(47, 219, 47)
+}
+
+nav ul li {
+  margin: 10px 20px;
+  list-style: none;
+  color: white;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.sidebar {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(1, 96, 64, 0.5);
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  z-index: 999;
+}
+#closeButton {
+  top: 0;
+  right: 0;
+}
+@media (max-width: 480px) {
+  .hidethis {
+    display: none;
+  }
+}
+@media (min-width: 481px) {
+  #openButton {
+    display: none;
+  }
+}

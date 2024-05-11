@@ -1,0 +1,33 @@
+   body{
+          background:linear-gradient(to right,#294c60,#98d2eb);
+        background-size: cover;
+      }
+      nav{
+            background-color: rgb(0, 8, 227);
+        }
+      .nav-link{
+            color: white;
+        }
+      .qps ul{
+        list-style-type: none;
+        list-style-position: outsidex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .qps ul li{
+        padding: 10px;
+      }
+      .qps ul li a{
+        padding: 10px;
+        font-weight: bold;
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+
+      }
+      .qps ul li:before{
+        content: '*';
+        color: rgb(255, 255, 255);
+        font-weight:900 ;
+        width:1em;
+        margin-left: -1em;
+      }

@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+#darkmodehead {
+  border-radius: 5%;
+  margin: 2px;
+  padding: 4px;
+  background-color: black;
+  color: white;
+}
+.border {
+  border-radius: 40%;
+  border: 2px solid black;
+}
+.changemode {
+  cursor: pointer;
+  border-radius: 40%;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid white;
+}
+
+.modebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+@media (min-width: 769px) {
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}

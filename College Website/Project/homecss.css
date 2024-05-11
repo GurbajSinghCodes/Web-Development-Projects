@@ -1,0 +1,47 @@
+         body{
+          background-image: url("https://images.pexels.com/photos/172505/pexels-photo-172505.jpeg?auto=compress&cs=tinysrgb&w=600");
+          background-size: cover;
+           background-attachment: fixed;
+        }
+
+       #location, #selectbranch, .links{
+           text-decoration: none;
+          background-color: rgba(252, 213, 253, 1);
+       }
+       #selectbranch button{
+        border: 1rev solid;
+        background-color: rgba(252, 213, 253, 0.84);
+       }
+       a{
+           text-decoration: none;
+
+       }
+        .resultlink{
+            text-decoration: none;
+        }
+        .resultlink .alert{
+            font-weight: bold;
+            font-size: x-large;
+            color: rgb(0, 0, 0);
+        }
+      
+        .card{
+            margin: auto;
+            margin-top: 30px;
+            text-align: center;
+         }
+        .card .card-link{
+            background-color: rgb(24, 74, 110);
+            text-decoration: none;
+            color: white;
+        }
+        .heading h4{
+            background-color: rgb(24, 74, 110);
+            color: white;
+        }
+        .branchlinks{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+     

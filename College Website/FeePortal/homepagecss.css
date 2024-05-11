@@ -1,0 +1,30 @@
+.buttons {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .button {
+    width: 50vw;
+  }
+}
+@media (min-width: 601px) {
+  .button {
+    width: 25vw;
+  }
+}
+.button {
+  cursor: pointer;
+  color: white;
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 30px;
+}

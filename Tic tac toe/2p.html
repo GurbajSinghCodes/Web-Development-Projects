@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="changemode.css" />
+    <link rel="stylesheet" href="stylegame.css" />
+  </head>
+  <body id="body">
+    <main>
+      <p id="darkmodehead">Dark mode</p>
+      <div class="border">
+        <div class="changemode">
+          <div class="modebutton dark" id="off"></div>
+          <div class="modebutton" id="on">OFF</div>
+        </div>
+      </div>
+    </main>
+
+    <div class="heading">TIC TAC TOE</div>
+    <div class="newgame">
+      <button id="newgame">New Game</button>
+    </div>
+    <div class="hide" id="parax">
+      <p>Congratulations! X won</p>
+      <p>Scroll below to see matrix</p>
+      <p>↓</p>
+    </div>
+    <div class="hide" id="parao">
+      <p>Congratulations! O won</p>
+      <p>Scroll below to see matrix</p>
+      <p>↓</p>
+    </div>
+
+    <div class="main">
+      <div class="game">
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+        <button class="buttons"></button>
+      </div>
+    </div>
+    <button id="rst-btn">Reset Game</button>
+    <script src="2p.js"></script>
+    <script src="changemode.js"></script>
+  </body>
+</html>

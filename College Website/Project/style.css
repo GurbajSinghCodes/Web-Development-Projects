@@ -1,0 +1,24 @@
+        nav{
+            background-color: rgb(22, 188, 22);
+     position: fixed;
+
+        }
+        .nav-link{
+            font-weight: bold;
+            color: white;
+
+        }
+        .header{
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          font-family: algerian;
+        }
+        .header ul{
+          display: flex;
+          list-style: none;
+        }
+        .header ul li{
+          margin-right: 10px;
+        }
+      

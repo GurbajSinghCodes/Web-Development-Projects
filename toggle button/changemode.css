@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+.buttons {
+  border: 2px solid black;
+  border-radius: 40%;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+.dark {
+  background-color: black;
+}
+.light {
+  background-color: white;
+}
+  
